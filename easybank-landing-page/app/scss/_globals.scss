@@ -40,11 +40,25 @@ a, a:visited, a:hover {
 //buttons
 
 button, .button {
-    padding: 1rem 1.875rem;
+    padding: 0.875rem 2.1875rem;
     background: linear-gradient(to right, $limeGreen, $brightCyan);
     border: 0;
     border-radius: 50px;
     cursor: pointer;
     font-weight: 400;
     color: $white;
+}
+
+
+//visibility
+.hide-for-mobile { 
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @include breakpoint-up(large) {
+        display: none;
+    }
 }
