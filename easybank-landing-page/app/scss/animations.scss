@@ -1,13 +1,18 @@
+.has-fade {
+    visibility: hidden;
+} 
+
 @keyframes fade-in {
     from {
         visibility: hidden;
         opacity: 0;
     }
-    1% {
+    1% { 
         visibility: visible;
         opacity: 0;
     }
     to {
+        visibility: visible; //otherwise it reset before %100
         opacity: 1;
     }
 }
