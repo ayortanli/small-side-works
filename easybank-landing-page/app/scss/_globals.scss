@@ -14,7 +14,11 @@ body {
     font-size: $font-med;
     font-weight: 300;
     color: $grayishBlue;
-    line-height: 1.3;
+    line-height: 1.3;    
+            
+    @include breakpoint-up(large){
+        font-size: $font-med;
+    }
 
     &.noscroll {
         overflow: hidden;
@@ -46,10 +50,25 @@ a, a:visited, a:hover {
 }
 
 .container {
-    padding-left: 1.5rem;
-    padding-top: 2.25rem;
-    padding-right: 1.5rem;
-    padding-bottom: 2.25rem;
+    max-width: 69.375rem;
+    margin: 0 auto;
+
+    &--pall{
+        padding-left: 1.5rem;
+        padding-top: 2.25rem;
+        padding-right: 1.5rem;
+        padding-bottom: 2.25rem;
+    }
+
+    &--px{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    &--py{
+        padding-top: 2.25rem;
+        padding-bottom: 2.25rem;
+    }
 }
 
 //buttons
