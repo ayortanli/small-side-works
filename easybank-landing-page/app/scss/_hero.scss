@@ -31,8 +31,6 @@
         }
 
         &::before {
-            
-
             @include breakpoint-up(large){
                 content: "";
                 position: absolute;
