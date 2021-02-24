@@ -73,22 +73,6 @@
             flex: 2;
             order: 1;
             text-align: left;
-        }
-
-        h1 {
-            font-weight: 300;
-            font-size: $font-lrg;
-            line-height: 1.15;
-            color: $darkBlue;
-
-            @include breakpoint-up(large){
-                font-size: $font-xlg;
-            }
-        }
-
-        p{
-            line-height: 1.5;
-        }
+        }     
     }
-
 }
