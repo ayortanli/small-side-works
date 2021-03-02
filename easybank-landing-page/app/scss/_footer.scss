@@ -44,8 +44,18 @@
 
         a {
             display: inline-block;
-            height: 1.25rem;
+            height: 1.25rem;            
+
+            svg path {
+                transition: fill 150ms ease-in-out;
+            }
+
+            &:hover svg path {
+                fill: $limeGreen;
+            }
         }
+
+
         
         @include breakpoint-up(large){
             grid-area: social;
@@ -81,7 +91,12 @@
         }
 
         a {
-            line-height: 2.25;             
+            line-height: 2.25;              
+            transition: color 150ms ease-in-out;            
+
+            &:hover {
+                color: $limeGreen;
+            }      
         }
     }
 
