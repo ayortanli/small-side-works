@@ -26,11 +26,6 @@
         overflow: hidden;
         background-color: $white;
         box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
-        transition: all 150ms ease-in-out;
-
-        &:hover {
-            transform: scale(1.05);
-        }
     }
 
     &__image {
@@ -55,10 +50,16 @@
     }
 
     &__title {
+        display: inline-block;
         font-size: 1.0625rem;
         line-height: 1.2;
         color: $darkBlue;
         margin-bottom: 0.5rem;
+        transition: color 150ms ease-in-out;
+
+        &:hover {
+            color: $limeGreen;
+        }
     }
 
     &__description {
