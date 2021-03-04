@@ -2,6 +2,9 @@
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
+## Notes: 
+Easybank landing page implementation with Html - Sass - Javascript. Details are below:
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
