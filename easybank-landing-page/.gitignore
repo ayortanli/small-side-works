@@ -17,5 +17,5 @@
 design/
 
 #scss generated files
-app/scss/*.css
-app/scss/*.css.map
+#app/scss/*.css
+#app/scss/*.css.map
