@@ -1,9 +1,12 @@
 # Frontend Mentor - Easybank landing page
 
-![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/v1583427671/Challenges/yezt1f56cfp2njnakpbo.jpg)
 
 ## Notes: 
-Easybank landing page implementation with Html - Sass - Javascript. Details are below:
+Easybank landing page implementation with Html - Sass - Javascript. Open [html page](./index.html) in browser to see solution.  
+[Challenge Page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+
+Details are below:
 
 ## Welcome! 👋
 
