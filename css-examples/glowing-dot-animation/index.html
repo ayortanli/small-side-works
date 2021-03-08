@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Glowing Dot Animation</title>
+        <link rel="stylesheet" href="./style.css"/>        
+    </head>
+    <body> 
+        <section>
+            <span></span>
+        </section>
+    </body>
+    <script>
+        let section = document.querySelector("section");
+        for(let i = 0; i<1000; i++)
+            section.appendChild(document.createElement("span"));
+    </script>
+</html>
